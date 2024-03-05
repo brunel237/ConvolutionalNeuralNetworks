@@ -279,7 +279,7 @@ import numpy as np
 from PIL import Image
 
 def upload(fichier):
-    lecture = csv.reader(open('/home/brunel/Downloads/Neural-Network-master/'+fichier+'.csv', 'r'), delimiter='\n')
+    lecture = csv.reader(open(fichier+'.csv', 'r'), delimiter='\n')
     x = list(lecture)
     t = []
     for i in x:

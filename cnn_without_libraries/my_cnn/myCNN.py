@@ -7,8 +7,8 @@ from reshape import *
 from mnist import *
 from pathlib import Path
 
-train_path = "/media/brunel/ubuntu_xtend2/Devoir242/training_set"
-test_path = "/media/brunel/ubuntu_xtend2/Devoir242/test_set"
+train_path = "../../DataSet/training_set"
+test_path = "../../DataSet/test_set"
 
 trainI = GetTrainImage(PATH=train_path, IMAGE_SIZE=64)
 testI = GetTrainImage(PATH=test_path, IMAGE_SIZE=64)
