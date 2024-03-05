@@ -1,0 +1,11 @@
+- Here we aim to recgnize a cat and a dog with help of convolutional neural networks (CNNs).
+- Take note : a 'DataSet' directory, containing a 'training_set' directory and a 'test_set' directory, should be added on the master branch.
+- These sub directories (training_set and test_set) should both have the 'dogs' directory and 'cats' directory each.
+- Then populate all these sub directories with cats and dogs images respectively, for training set and test set accordingly.
+- The more images you use to train and test, the best the precision of results the program will have. I used >33000 images!!!
+- Make sure to verify directory paths in the program to match the aimed path. Paths are writen in Linux manner.
+- This project is free and open source. You are free to do whatever you want with it.
+- The program using libraries uses predefined python libraries for machine learning like Keras
+- The program without libraries contains a code of the whole machine learning process writen from scatch with python, of course in exception of basic libraries like numpy.
+- For any suggestion or help, contact email me : bruneltsafack@gmail.com
+- Good luck..
